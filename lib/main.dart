@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import './pages/index_page.dart';
-
+import 'bottom_navigation_widget.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -10,10 +9,8 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: '百姓生活+',
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-            primaryColor: Colors.pink
-        ),
-        home: IndexPage(),
+        theme: ThemeData.light(),
+        home: BottomNavigationWidget(),
       ),
     );
   }
