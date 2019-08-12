@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './pages/index_page.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             primaryColor: Colors.pink
         ),
-        home: IndexPage(),
+        home: Center(
+          child: Text('内容'),
+        ),
       ),
     );
   }
