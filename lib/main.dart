@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import './bottom_appBar_demo.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,11 +11,9 @@ class MyApp extends StatelessWidget {
         title: '百姓生活+',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            primaryColor: Colors.pink
+            primarySwatch: Colors.lightBlue
         ),
-        home: Center(
-          child: Text('内容'),
-        ),
+        home: BottomAppBarDemo()
       ),
     );
   }
